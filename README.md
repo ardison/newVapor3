@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center">
     <img src="https://user-images.githubusercontent.com/1342803/36623515-7293b4ec-18d3-11e8-85ab-4e2f8fb38fbd.png" width="320" alt="API Template">
     <br>
@@ -18,3 +19,7 @@
         <img src="http://img.shields.io/badge/swift-4.1-brightgreen.svg" alt="Swift 4.1">
     </a>
 </p>
+=======
+# newVapor3
+Create new vapor project with this template.
+>>>>>>> 537ff4f5b3964a44d3ee59907e8037e7221611b2
