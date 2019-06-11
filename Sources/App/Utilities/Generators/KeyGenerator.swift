@@ -17,7 +17,7 @@ struct KeyGenerator: KeyGen {
         self.type = type
         self.bodyLenght = bodyLenght
         self.body = randomString(length: bodyLenght)
-        self.dateTime = String(dateTimeNow())
+        self.dateTime = String(dateTimeNoSpace())
     }
     
     func generateKey() -> String {

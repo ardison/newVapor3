@@ -17,15 +17,15 @@ func dateTimeNowJWT() -> String {
     return now
 }
 
-func dateTimeNow() -> String {
+func dateTimeNoSpace() -> String {
     let currentTime = Date()
     let genDate = DateFormatter()
-    genDate.dateFormat = "yyyyMMddhhmmSSSS" // ISO8601
+    genDate.dateFormat = "yyyyMMddhhmmSSSS"
     let now = genDate.string(from: currentTime)
     return now
 }
 
-func dateTimeNowISO8601() -> String {
+func dateTimeNow() -> String {
     let currentTime = Date()
     let genDate = DateFormatter()
     genDate.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSXXXXX" // ISO8601
